@@ -1,3 +1,7 @@
+# imitini isaac .o.
+#79156785AB
+#csc213
+
 .data
 enter1:.asciiz "\n enter any number for A:"
 enter2:.asciiz "\n enter for B:"
@@ -34,7 +38,7 @@ li $v0,6
 syscall
 mov.s $f5,$f0                       #$f5 holds B
 
-la $a0,enter3                       #Tell user make e enter any number as C
+la $a0,enter3                       #Tell user enter any number as C
 li $v0,4
 syscall
 li $v0,6
